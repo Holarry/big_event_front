@@ -79,7 +79,7 @@ const articleModel = ref({
     title: '',
     categoryId: '',
     coverImg: '',
-    content: '',
+    content: [],
     state: ''
 })
 
@@ -135,7 +135,7 @@ const clearArticleModel = () => {
         title: '',
         categoryId: '',
         coverImg: '',
-        content: '',
+        content: [],
         state: ''
     }
 }
